@@ -15,10 +15,19 @@ body {
     color: #2F3132;
     padding-bottom: 20px;
 }
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2F3132;
+}
 .text-margin {
     margin-left: 34px;
     margin-right: 33px;
 }
+
 .header {
     display: flex;
     justify-content: center;
@@ -27,13 +36,9 @@ body {
     display: flex;
     justify-content: center;
 }
-.text {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #2F3132;
+.text_flow {
+    margin-bottom: 16px;
+    text-align: left;    
 }
 .top_img {
     margin-top: 94px;
@@ -115,5 +120,19 @@ body {
 }
 
 .info_heading-item {
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
+}
+
+/* section 4 */
+
+.section-four {
+    background-color: #EDEDED;
+    padding-top: 70px;
+    padding-bottom: 218px;
+    background-image:url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.flow__ol {
+    margin-top: 30px;
 }
