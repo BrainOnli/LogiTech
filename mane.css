@@ -13,6 +13,7 @@ body {
     line-height: 23px;
     text-align: center;
     color: #2F3132;
+    padding-bottom: 20px;
 }
 .header {
     display: flex;
@@ -45,4 +46,31 @@ body {
 .top_text-margin {
     margin-left: 59px;
     margin-right: 59px;
+}
+/* bluetooth */
+
+.bluetooth {
+    background: #EDEDED;
+    padding-top: 42px;
+    padding-bottom: 18px;
+}
+.bluetooth_icon {
+    padding-bottom: 27px;
+}
+.bluetooth_heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    margin-top: 31px;
+}
+.blutooth_img {
+    height: 218px;
+    background-image: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;   
+    background-position: center bottom;
 }
