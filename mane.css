@@ -27,7 +27,6 @@ body {
     margin-left: 34px;
     margin-right: 33px;
 }
-
 .header {
     display: flex;
     justify-content: center;
@@ -39,6 +38,18 @@ body {
 .text_flow {
     margin-bottom: 16px;
     text-align: left;    
+}
+.info-content {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    padding-top: 30px;
+    padding-bottom: 28px;
+}
+.text-setings {
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 11px;
 }
 .top_img {
     margin-top: 94px;
@@ -96,13 +107,6 @@ body {
     flex-basis: 166px;
     min-height: 94px;
 }
-.info-content {
-    display: flex;
-    justify-content: center;
-    gap: 3px;
-    padding-top: 30px;
-    padding-bottom: 28px;
-}
 .info-heading {
     font-style: normal;
     font-weight: 900;
@@ -143,5 +147,16 @@ body {
 }
 
 .setting__slider {
-    margin: 35px 22px 95px 23px;
+    margin: 35px 22px 98px 23px;
+}
+/* mini section 6 */
+.mini_setcion-six {
+    background: #C4C4C4;
+    padding: 23px 22px 26px 29px;
+}
+.section__icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+    margin-bottom: 20px;
 }
