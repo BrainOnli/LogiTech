@@ -177,3 +177,15 @@ body {
 .sim2 {
     background-image: url(img/image2.jpg);
 }
+/* footer */
+.footer {
+    background: #2F3132;
+    height: 75px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+    text-align: center;
+    color: #C7C8C8;
+    padding-top: 22px;
+}
