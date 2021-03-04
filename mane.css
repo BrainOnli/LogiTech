@@ -160,3 +160,20 @@ body {
     margin-top: 23px;
     margin-bottom: 20px;
 }
+/* section 7 */
+.section-text {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.section-img {
+    height: 310px;
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sim1 {
+    background-image: url(img/image1.png);
+}
+.sim2 {
+    background-image: url(img/image2.jpg);
+}
