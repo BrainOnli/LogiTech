@@ -39,13 +39,6 @@ body {
     margin-bottom: 16px;
     text-align: left;    
 }
-.info-content {
-    display: flex;
-    justify-content: center;
-    gap: 3px;
-    padding-top: 30px;
-    padding-bottom: 28px;
-}
 .text-setings {
     color: #fff;
     margin-left: 5px;
@@ -63,13 +56,17 @@ body {
 .top_arrow {
     margin-top: 40px;
 }
+.top_svg {
+    width: 39px;
+    height: 20px;
+}
 .top_text-margin {
     margin-left: 59px;
     margin-right: 59px;
 }
-/* bluetooth */
+/* section two */
 
-.bluetooth {
+.section-two {
     background: #EDEDED;
     padding-top: 42px;
     padding-bottom: 18px;
@@ -95,18 +92,31 @@ body {
     background-position: center bottom;
 }
 
-/* section 3 */
+/* section thre */
 
 .section-three {
     background: #FFFFFF;
     padding-top: 70px;
     padding-bottom: 77px;
 }
+.info-content {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 30px;
+    margin-bottom: 28px;
+}
 .info__item {
     border: 1px solid #2F3132;
     flex-basis: 166px;
     min-height: 94px;
+    padding-left: 17px;
+    padding-right: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 .info-heading {
     font-style: normal;
     font-weight: 900;
@@ -127,7 +137,7 @@ body {
     margin-bottom: 5px; 
 }
 
-/* section 4 */
+/* section four */
 
 .section-four {
     background-color: #EDEDED;
@@ -136,6 +146,7 @@ body {
     background-image:url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: contain;
 }
 .flow__ol {
     margin-top: 30px;
@@ -188,4 +199,93 @@ body {
     text-align: center;
     color: #C7C8C8;
     padding-top: 22px;
+}
+
+@media (min-width: 768px) {
+    .top {
+        padding-top: 54px;
+        padding-bottom: 80px;
+    }   
+    .header__logo {
+        width: 240px;
+    }
+    .top_img {
+        margin-top: 159px;
+        height: 514px;
+        padding-bottom: 124px;
+    }
+    /* global significance - start */
+    .heading {
+        font-size: 40px;
+        line-height: 47px;
+        margin-bottom: 30px;
+    }
+    .text {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .top_text-margin {
+        margin-left: 159px;
+        margin-right: 159px;
+    }
+    .text-margin {
+        margin-left: 77px;
+        margin-right: 77px;
+    }
+    /* global significance - end */
+    .top_svg {
+        width: 57px;
+        height: 29px;
+    }
+    /* section two */
+    .section-two {
+        padding-top: 80px;
+    }
+    .bluetooth_heading {
+        font-size: 150px;
+        line-height: 176px;
+        margin-top: 76px;
+    }
+    .blutooth_img {
+        width: 836px;
+        height: 498px;
+    }
+    /* section three */
+    .info-content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap:30px
+    }
+    .info_heading-item {
+        margin-bottom: 5px;
+    }
+    .info__item {
+        min-height: 170px;
+    }
+    .info-heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    /* section  four */
+    .section-four {
+        padding-bottom: 496px;
+        
+    }
+    .flow__ol {
+        display: flex;
+        list-style-position: inside;
+        
+    }
+    .text_flow {
+        width: auto;
+        padding-right: 21px;
+        padding-left: 28px;
+        border-left:1px solid #494949;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .text_flow:first-child {
+        border-left:none;
+        padding-left: 0;
+    }
 }
