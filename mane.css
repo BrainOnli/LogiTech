@@ -247,14 +247,13 @@ body {
         margin-top: 76px;
     }
     .blutooth_img {
-        width: 836px;
         height: 498px;
     }
     /* section three */
     .info-content {
         margin-top: 50px;
         margin-bottom: 50px;
-        gap:30px
+        gap:30px;
     }
     .info_heading-item {
         margin-bottom: 5px;
@@ -288,4 +287,65 @@ body {
         border-left:none;
         padding-left: 0;
     }
+    /* section five */
+    .section-five {
+        padding-bottom: 70px;
+    }
+    .setting__slider {
+        margin: 53px 199px 150px; 
+    }
+    .setting__img {
+        height: 35px;
+    }
+    .text_settings {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+    .text-setings {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .section__icons {
+        margin-left: 98px;
+        margin-right: 104px;
+    }
+    .mini_setcion-six {
+        margin-right: 65px;
+        margin-left: 64px;
+    }
+    
+    .mouse_text{
+        margin-right: 0;
+        margin-left: 0;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .section-text {
+        padding-left: 67px;
+        padding-right: 64px;
+    }
+    .section-img {
+        height: 549px;
+    }
+    .sim1 {
+        background-image: url(img/High_Resolution_JPG-MX\ Master\ Lifestyle\ 2602\ SpaceGrey\ for\ MAC\ 2.jpg);
+    }
+    .sim2 {
+        background-image: url(img/image2-big.jpg);
+    }
+    /* footer */
+    .footer {
+        font-size: 14px;
+        line-height: 16px;
+        height: 150px;
+        padding-top: 47px;
+    }
 }
+
+@media (min-width: 1024px){
+    .center {
+        padding-left: calc(50% - 512px);
+        padding-right: calc(50% - 512px);
+        }
+}
+
