@@ -507,6 +507,42 @@ body {
         .flow__ol {
             margin-left: 15px;
         }
+        /* section five */
+
+        .section-five {
+            padding-top:100px;
+            padding-bottom: 100px;
+        }
+        .text-setings-p {
+            width: 958px;
+            margin: auto;
+        }
+        .setting__slider {
+            display: none;
+        }
+        .settings_img-slide {
+            display: flex;
+            justify-content: center;
+            margin-top: 70px;
+        }
+        /* mini section six */
+        .mini_setcion-six {
+            width: 749px;
+            margin: auto;
+        }
+        /* section seven */
+        .section-seven {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .section7-center {
+            padding-left: calc(50% - 655px);
+            padding-right: calc(50% - 655px);
+        }
+        .section__item {
+            height: 557px;
+            width: 50%;
+        }
 }
 
 
